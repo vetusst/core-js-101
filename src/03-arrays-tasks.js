@@ -234,14 +234,14 @@ function toArrayOfSquares(arr) {
  *   [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ] => [ 1, 3, 6, 10, 15, 21, 28, 36, 45, 55 ]
  */
 
-/* eslint-disable no-param-reassign */
 
 function getMovingSum(arr) {
+  const res = [...arr];
   arr.reduce((a, b, i) => {
-    arr[i] = a + b;
+    res[i] = a + b;
     return a + b;
   });
-  return arr;
+  return res;
 }
 
 /**

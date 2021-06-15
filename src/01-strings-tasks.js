@@ -100,7 +100,6 @@ function getFirstChar(string) {
 function removeLeadingAndTrailingWhitespaces(string) {
   return string.replace(/^[\s]+|[\s]+$/g, '');
 }
-console.log(removeLeadingAndTrailingWhitespaces('Hello, World! '));
 
 /**
  * Returns a string that repeated the specified number of times.
