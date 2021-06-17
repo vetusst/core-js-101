@@ -114,57 +114,6 @@ function fromJSON(proto, json) {
  *
  *  For more examples see unit tests.
  */
-
-// const cssSelectorBuilder = {
-//   answer: '',
-
-//   element(value) {
-//     const obj = Object.create(cssSelectorBuilder);
-//     obj.answer = this.answer + value;
-//     return obj;
-//   },
-
-//   id(value) {
-//     const obj = Object.create(cssSelectorBuilder);
-//     obj.answer = `${this.answer}#${value}`;
-//     return obj;
-//   },
-
-//   class(value) {
-//     const obj = Object.create(cssSelectorBuilder);
-//     obj.answer = `${this.answer}.${value}`;
-//     return obj;
-//   },
-
-//   attr(value) {
-//     const obj = Object.create(cssSelectorBuilder);
-//     obj.answer = `${this.answer}[${value}]`;
-//     return obj;
-//   },
-
-//   pseudoClass(value) {
-//     const obj = Object.create(cssSelectorBuilder);
-//     obj.answer = `${this.answer}:${value}`;
-//     return obj;
-//   },
-
-//   pseudoElement(value) {
-//     const obj = Object.create(cssSelectorBuilder);
-//     obj.answer = `${this.answer}::${value}`;
-//     return obj;
-//   },
-
-//   combine(selector1, combinator, selector2) {
-//     const obj = Object.create(cssSelectorBuilder);
-//     obj.answer = `${selector1.answer} ${combinator} ${selector2.answer}`;
-//     return obj;
-//   },
-
-//   stringify() {
-//     return this.answer;
-//   },
-// };
-
 const cssSelectorBuilder = {
   answer: '',
 
